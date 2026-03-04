@@ -1,0 +1,42 @@
+/* Hero section for Bestsellers page */
+.bestsellers-hero {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px;
+    background-color: #fdf8f8; /* light background matching brand */
+}
+
+.hero-text {
+    flex: 1;
+    min-width: 300px;
+    max-width: 600px;
+    padding: 20px;
+}
+
+.hero-text h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.hero-image {
+    flex: 1;
+    min-width: 300px;
+    max-width: 600px;
+    text-align: center;
+}
+
+.hero-image img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/* Reuse products grid CSS from skincare page */

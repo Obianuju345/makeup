@@ -1,0 +1,70 @@
+/* Hero section for About page */
+.about-hero {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px;
+    background-color: #fdf8f8;
+}
+
+.hero-text {
+    flex: 1;
+    min-width: 300px;
+    max-width: 600px;
+    padding: 20px;
+}
+
+.hero-text h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.hero-image {
+    flex: 1;
+    min-width: 300px;
+    max-width: 600px;
+    text-align: center;
+}
+
+.hero-image img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/* Our Story & Mission */
+.our-story, .our-mission {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.our-story h2, .our-mission h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.our-story p, .our-mission p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.our-mission ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.our-mission li {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #555;
+}

@@ -1,0 +1,143 @@
+/* GENERAL */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #faf5f6;
+    color: #3b2e2e;
+}
+
+/* NAVIGATION */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: #ffffff;
+    border-bottom: 1px solid #eee;
+}
+
+.navbar nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #3b2e2e;
+    font-size: 15px;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* HERO (index page) */
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 40px;
+    gap: 40px;
+}
+
+.hero img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* BESTSELLERS */
+.bestsellers {
+    padding: 50px 40px;
+}
+
+.bestsellers h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card p {
+    margin: 5px 0;
+}
+
+/* PRODUCT PAGE HERO */
+.product-hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 60px 40px;
+    gap: 50px;
+}
+
+.product-image img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.product-info h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.description {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.add-cart {
+    background: #a65366;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* PRODUCT EXTRA SECTIONS */
+.benefits, .how-to-use, .ingredients {
+    padding: 40px;
+    background: #ffffff;
+    margin: 20px 40px;
+    border-radius: 12px;
+}
+
+.benefits h3, .how-to-use h3, .ingredients h3 {
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+/* RELATED PRODUCTS */
+.related-products {
+    padding: 50px 40px;
+}
+
+.related-products h3 {
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+.related-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+/* FOOTER */
+.footer {
+    background: #e6ced4;
+    padding: 40px;
+    text-align: center;
+    margin-top: 50px;
+}
